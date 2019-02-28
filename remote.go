@@ -220,7 +220,10 @@ type Session struct {
 	Capabilities Capabilities
 }
 
-/* Create new remote client, this will also start a new session.
+/* 
+   capabilities - the desired capabilities, see http://goo.gl/SNlAk
+   executor - the URL to the Selenim server
+*/Create new remote client, this will also start a new session.
    capabilities - the desired capabilities, see http://goo.gl/SNlAk
    executor - the URL to the Selenim server
 */
